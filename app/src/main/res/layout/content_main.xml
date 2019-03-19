@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:id="@+id/nested_scroll_main"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+   <com.facebook.drawee.view.SimpleDraweeView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:id="@+id/main_profilepic"
+       app:placeholderImage="@mipmap/ic_launcher"
+       android:layout_marginTop="16dp"
+       app:roundAsCircle="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/name_wave"
+        android:layout_marginTop="8dp"
+        tools:text="Hi Nihal!"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:id="@+id/greetings"
+        tools:text="Good Morning!"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/number_of_task"
+        tools:text="You have 5 task for today."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:id="@+id/todays_date"
+        tools:text="Sunday- 18March 2018"/>
+
+      <android.support.v7.widget.RecyclerView
+          android:layout_marginTop="16dp"
+          app:layout_behavior="@string/appbar_scrolling_view_behavior"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/rv_main"
+          android:scrollbars="vertical"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

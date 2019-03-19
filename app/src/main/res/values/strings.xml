@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="google_login_key">754343547635-1hq6lfjrjak8ujcp3ejkio2gnd05n978.apps.googleusercontent.com</string>
+
+    <string name="exist_key" formatted="false" translatable="false">exists</string>
+    <string name="task_title_key" formatted="false" translatable="false">title</string>
+    <string name="task_completed_items_key" translatable="false" formatted="false">completed_tasks</string>
+    <string name="task_incomplete_items_key" formatted="false" translatable="false">incomplete_tasks</string>
+    <string name="task_description_items_key" formatted="false" translatable="false">description_tasks</string>
+    <string name="task_is_complete_items_key" formatted="false" translatable="false">task_complete</string>
+    <string name="task_due_date_key" formatted="false" translatable="false">due_date</string>
+    <string name="default_task" formatted="false" translatable="false">My Task</string>
+    <string name="task_color" formatted="false" translatable="false">color</string>
+
+
+    <!--Task Detail activity-->
+    <string name="new_task">New Task</string>
+    <string name="edit_task">Edit</string>
+    <string name="error">Some Error Occured</string>
+</resources>
